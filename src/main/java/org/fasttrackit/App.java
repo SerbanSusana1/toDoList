@@ -19,5 +19,8 @@ public class App
                 LocalDateTime.now().plusMonths(6));
 
         System.out.println( toDoItemRepository.getToDoItem());
+        //toDoItemRepository.deleteToDoItem(1);
+        toDoItemRepository.updateToDoItem(3,true);
+        System.out.println( toDoItemRepository.getToDoItem());
     }
 }
