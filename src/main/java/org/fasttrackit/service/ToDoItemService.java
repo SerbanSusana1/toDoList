@@ -21,7 +21,7 @@ public class ToDoItemService {
 
     public List<ToDoItem> getToDoItems() throws  SQLException,IOException, ClassNotFoundException {
 
-        System.out.println("retrieving toDoItemm...");
+        System.out.println("Retrieving toDoItemm...");
         return toDoItemRepository.getToDoItems();
     }
     public  void deleteToDoItem(long id) throws SQLException, IOException, ClassNotFoundException{
