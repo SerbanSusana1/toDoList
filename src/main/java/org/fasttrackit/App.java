@@ -18,9 +18,9 @@ public class App
         toDoItemRepository.createToDoItem("Learn Java",
                 LocalDateTime.now().plusMonths(6));
 
-        System.out.println( toDoItemRepository.getToDoItem());
+        System.out.println( toDoItemRepository.getToDoItems());
         //toDoItemRepository.deleteToDoItem(1);
         toDoItemRepository.updateToDoItem(3,true);
-        System.out.println( toDoItemRepository.getToDoItem());
+        System.out.println( toDoItemRepository.getToDoItems());
     }
 }

@@ -28,7 +28,7 @@ public class ToDoItemRepository {
     }
 
 
-    public List<ToDoItem> getToDoItem() throws SQLException, IOException, ClassNotFoundException {
+    public List<ToDoItem> getToDoItems() throws SQLException, IOException, ClassNotFoundException {
         String query = "SELECT id,description,deadline,done from to_do_item";
         try (Connection connection =DatabaseConfiguration.getConnection();
         Statement statement = connection.createStatement();
