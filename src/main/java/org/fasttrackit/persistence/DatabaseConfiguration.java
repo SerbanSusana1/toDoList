@@ -25,9 +25,6 @@ public class DatabaseConfiguration {
                     properties.getProperty("DB_PASSWORD"));
         } finally {
             if(inputStream != null){
-
-
-
             inputStream.close();
             }
         }
